@@ -1,0 +1,45 @@
+/* EventList.module.css */
+
+.listContainer {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .filterSection {
+    margin-bottom: 20px;
+  }
+  
+  .filterInput {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .eventListHeader {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .eventList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .eventItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .eventItem h4 {
+    margin-bottom: 5px;
+  }
+  
+  .eventItem p {
+    margin-bottom: 10px;
+  }
+  

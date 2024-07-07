@@ -1,0 +1,36 @@
+/* LoginForm.module.css */
+
+.formContainer {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formLabel {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #0056b3;
+}
